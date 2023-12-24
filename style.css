@@ -1,0 +1,65 @@
+@import url("https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/font-face.css");
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Sahel', sans-serif;
+}
+body{
+  background: #fff;
+}
+.h2-head{
+  text-align: center;
+  margin:10px;
+
+}
+.button{
+  padding: 8px 20px 8px 20px;
+  background: #0c81ae;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  margin-top:10px ;
+
+}
+#note{
+  direction: rtl;
+  text-align: right;
+  font-size: 15px; 
+}
+
+.note-list{
+  text-align: center;
+  direction: rtl;
+  margin: 10px;
+
+}
+.remove-btn{
+  color: #fff;
+  background: red;
+  padding: 2px 8px 2px 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+#pad{
+  background: #f0fbff;
+  text-align: center;
+  width: 100%;
+}
+.alert-span{
+  background: #15c171;
+  padding: 8px 15px 8px 15px;
+  color: #fff;
+  border-radius: 2px;
+}
+.alert-span-red{
+  background: #ff3131;
+  padding: 8px 15px 8px 15px;
+  color: #fff;
+  border-radius: 2px;
+}
